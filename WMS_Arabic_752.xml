@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/msdesc/consolidated-tei-schema/master/msdesc.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="manuscript_16396">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Wellcome Library</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Wellcome Library; Bibliotheca Alexandrina; King's College London</publisher>
+        <idno type="msID">WMS_Arabic_752</idno>
+        <idno type="catalogue">Fihrist</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc xml:id="WMS_Arabic_752" xml:lang="en">
+          <msIdentifier>
+            <country>UK</country>
+            <settlement>London</settlement>
+            <institution>Wellcome Trust</institution>
+            <repository>Wellcome Collection</repository>
+            <collection> Manuscripts in Arabic</collection>
+            <idno>MS Arabic 752</idno>
+            <altIdentifier type="former">
+              <idno>WMS. Or. 731</idno>
+            </altIdentifier>
+          </msIdentifier>
+
+          <msContents>
+            <summary>Miscellaneous sūras of the Qurʾān</summary>
+            <msItem xml:id="WMS_Arabic_752-item1">
+              <locus facs="#i0002 #i0023"/>
+              <title key="work_112" xml:lang="ar-Latn-x-lc" type="uniform">al-Qurʼān</title>
+              <title xml:lang="ar" type="variant">القرآن</title>
+              <title xml:lang="en" type="desc">Miscellaneous sūras of the Qurʾān</title>
+
+              <incipit facs="#i0002" xml:lang="ar">
+                <locus>f.1r.1</locus> وفالت عجوز عفيم فالوا كذلك فال ربك انه هو الحكيم العليم فال
+                ڢما خطبكم ايها المرسلون فالوا انا ارسلنا الى قوم مجرمين لنرسل عليهم حجارة من طين </incipit>
+              <explicit facs="#i0023" xml:lang="ar">
+                <locus>f.23r.43</locus> رب اغفر لي ولوالدي ولمن دخل بيتي مؤمنا وللمومنين والمومنت
+                ولا تزد الظلمين الا تبارا تمت </explicit>
+              
+              
+              <colophon facs="#i0023" xml:lang="ar">
+                <locus>f.23r.43</locus> تمت </colophon>
+              <textLang mainLang="ar">Arabic</textLang>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc form="codex">
+              <supportDesc material="chart">
+                <support>
+                  <material>Unburnished paper</material>
+                  
+                </support>
+                <extent> 24 ff. <dimensions type="leaf" unit="mm">
+                    <height>230</height>
+                    <width>180</width>
+                  </dimensions>
+                  <dimensions type="written" unit="mm">
+                    <height>220</height>
+                    <width>175</width>
+                  </dimensions>
+                </extent>
+                <foliation>Lacks foliation. 
+                </foliation>
+              
+                <condition>Deteriorated: folia show tears and humidity damage.</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout ruledLines="22" columns="1">
+                 1 column, 22 lines.
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote scope="major" script="naskh">
+                <p><label>Script:</label> Maghribī</p>
+                <p><label>Ink:</label> black</p>
+                
+                
+               
+              </handNote>
+            </handDesc>
+           
+            <bindingDesc>
+              <binding contemporary="true">
+                <p>
+                 Folia unbound.
+                </p>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history><origin>Undated.</origin></history>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <classDecl>
+        <taxonomy xml:id="LCSH">
+          <bibl>
+            <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of Congress Subject
+              Headings</ref>
+          </bibl>
+        </taxonomy>
+      </classDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="#LCSH">
+          <list>
+            
+            
+            <item><term key="subject_sh85072953">Koran</term></item>
+          
+            
+            
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2021-04-26" who="Rosie Maxton">Updated record in accordance with Fihrist standards.</change>
+      <change when="2011-06-21T12:42:19+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>sherif.masry</persName>
+      </change>
+      <change when="2011-06-27T10:02:33+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>mohamed.elbarsege</persName>
+      </change>
+      <change when="2011-06-27T10:02:45+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>mohamed.elbarsege</persName>
+      </change>
+      <change when="2011-09-15T16:24:13+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>mohamed.abdelsamie</persName>
+      </change>
+      <change when="2011-09-22T11:27:37+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>mohamed.abdelsamie</persName>
+      </change>
+      <change when="2011-11-27T09:15:35+02:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>sherif.elansary</persName>
+      </change>
+      <change when="2011-11-27T09:16:06+02:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>sherif.elansary</persName>
+      </change>
+      <change when="2012-03-07T13:13:40+02:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>sherif.masry</persName>
+      </change>
+      <change when="2012-03-07T13:15:38+02:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>sherif.masry</persName>
+      </change>
+      <change when="2012-03-07T13:15:49+02:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>sherif.masry</persName>
+      </change>
+      <change when="2012-06-11T15:00:45+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>nserikoff</persName>
+      </change>
+      <change when="2012-06-15T13:25:40+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>chenshaw</persName>
+      </change>
+      <change when="2012-08-07T12:38:44+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>nserikoff</persName>
+      </change>
+      <change when="2012-08-10T13:42:06+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>chenshaw</persName>
+      </change>
+      <change when="2012-08-13T13:12:07+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>nserikoff</persName>
+      </change>
+      <change when="2012-08-20T17:13:35+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>chenshaw</persName>
+      </change>
+      <change when="2012-08-22T13:44:32+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>engy</persName>
+      </change>
+      <change when="2012-08-22T14:06:30+03:00"> Committed to SVN. To view the changes in detail use
+        SVN diff. SVN
+        Url:http://wellcomesvn.local.bibalex.dom/svn/WellcomeTrust/trunk/WAMCPMetaGallery/XML/WMS_Arabic_752/WMS_Arabic_752.xml
+          <persName>nserikoff</persName>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <facsimile>
+    <surface xml:id="i0001">
+      <graphic url="WMS_Arabic_752_0001"/>
+    </surface>
+    <surface xml:id="i0002">
+      <graphic url="WMS_Arabic_752_0002"/>
+    </surface>
+    <surface xml:id="i0003">
+      <graphic url="WMS_Arabic_752_0003"/>
+    </surface>
+    <surface xml:id="i0004">
+      <graphic url="WMS_Arabic_752_0004"/>
+    </surface>
+    <surface xml:id="i0005">
+      <graphic url="WMS_Arabic_752_0005"/>
+    </surface>
+    <surface xml:id="i0006">
+      <graphic url="WMS_Arabic_752_0006"/>
+    </surface>
+    <surface xml:id="i0007">
+      <graphic url="WMS_Arabic_752_0007"/>
+    </surface>
+    <surface xml:id="i0008">
+      <graphic url="WMS_Arabic_752_0008"/>
+    </surface>
+    <surface xml:id="i0009">
+      <graphic url="WMS_Arabic_752_0009"/>
+    </surface>
+    <surface xml:id="i0010">
+      <graphic url="WMS_Arabic_752_0010"/>
+    </surface>
+    <surface xml:id="i0011">
+      <graphic url="WMS_Arabic_752_0011"/>
+    </surface>
+    <surface xml:id="i0012">
+      <graphic url="WMS_Arabic_752_0012"/>
+    </surface>
+    <surface xml:id="i0013">
+      <graphic url="WMS_Arabic_752_0013"/>
+    </surface>
+    <surface xml:id="i0014">
+      <graphic url="WMS_Arabic_752_0014"/>
+    </surface>
+    <surface xml:id="i0015">
+      <graphic url="WMS_Arabic_752_0015"/>
+    </surface>
+    <surface xml:id="i0016">
+      <graphic url="WMS_Arabic_752_0016"/>
+    </surface>
+    <surface xml:id="i0017">
+      <graphic url="WMS_Arabic_752_0017"/>
+    </surface>
+    <surface xml:id="i0018">
+      <graphic url="WMS_Arabic_752_0018"/>
+    </surface>
+    <surface xml:id="i0019">
+      <graphic url="WMS_Arabic_752_0019"/>
+    </surface>
+    <surface xml:id="i0020">
+      <graphic url="WMS_Arabic_752_0020"/>
+    </surface>
+    <surface xml:id="i0021">
+      <graphic url="WMS_Arabic_752_0021"/>
+    </surface>
+    <surface xml:id="i0022">
+      <graphic url="WMS_Arabic_752_0022"/>
+    </surface>
+    <surface xml:id="i0023">
+      <graphic url="WMS_Arabic_752_0023"/>
+    </surface>
+    <surface xml:id="i0024">
+      <graphic url="WMS_Arabic_752_0024"/>
+    </surface>
+    <surface xml:id="i0025">
+      <graphic url="WMS_Arabic_752_0025"/>
+    </surface>
+    <surface xml:id="i0026">
+      <graphic url="WMS_Arabic_752_0026"/>
+    </surface>
+    <surface xml:id="i0027">
+      <graphic url="WMS_Arabic_752_0027"/>
+    </surface>
+    <surface xml:id="i0028">
+      <graphic url="WMS_Arabic_752_0028"/>
+    </surface>
+    <surface xml:id="i0029">
+      <graphic url="WMS_Arabic_752_0029"/>
+    </surface>
+    <surface xml:id="i0030">
+      <graphic url="WMS_Arabic_752_0030"/>
+    </surface>
+    <surface xml:id="i0031">
+      <graphic url="WMS_Arabic_752_0031"/>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div> </div>
+    </body>
+  </text>
+</TEI>
